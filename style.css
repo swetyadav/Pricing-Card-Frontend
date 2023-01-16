@@ -1,0 +1,119 @@
+html{
+  box-sizing:border-box;
+  font-family:'Karla';
+  font-size:16px;
+}
+body{
+  padding:20px;
+}
+*,*:before,*:after{
+  box-sizing:inherit;
+}
+h2,h4,p{
+  margin:0;
+}
+#card{
+  width:500px;
+  height:400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,0.35);
+  border-radius:5px;
+  overflow:hidden;
+ 
+}
+
+#top{
+  width:100%;
+  height:43%;
+  padding :25px;
+
+    
+}
+#bottom{
+  
+  width:100%;
+  height:57%;
+
+}
+#bottom-left{
+  margin-top:0;
+  display:inline-block;
+  width:50%;
+  height:100%;
+ 
+  vertical-align:top;
+  background-color: #2ab2af;
+  padding:20px;
+  color:white;
+}
+#bottom-right{
+  display:inline-block;
+  width:50%;
+  height:100%;
+  
+   vertical-align:top;
+   background-color: #5abce0;
+  padding:20px;
+  color:white;
+}
+#top h2{
+  color : #2ab2af;
+  margin-bottom:15px;
+}
+#top h4{
+  color:#c0df34;
+  margin-bottom:10px;
+}
+#top p{
+  color:#98a6bd;
+  line-height:25px;
+}
+#price-container{
+  margin-bottom:10px;
+}
+#price{
+  display:inline-block;
+  font-weight:700;
+  font-size:1.5rem;
+}
+#month{
+  margin-left:10px;
+  vertical-align:top;
+  margin-top:5px;
+  display:inline-block;
+  font-size:12px;
+  opacity:0.7;
+}
+#bottom-left h4{
+  margin-bottom:30px;
+}
+#bottom-left p{
+  margin-bottom:20px;
+  font-size:14px;
+  opacity:0.8;
+}
+button{
+  color:white;
+  width:140px;
+  height : 30px;
+  margin-top:20px;
+  margin-left:30px;
+  background-color:#c0df34;
+  border:none;
+  border-radius:3px;
+box-shadow: 19px -30px 18px -28px rgba(0,0,0,0.68);
+}
+ul{
+  padding:0px;
+  list-style:none;
+  line-height:25px;
+  opacity:0.8;
+  font-size:14px;
+}
+button:hover{
+  cursor:pointer;
+  color:black;
+  background-color:white;
+  font-weight:700;
+  font-size:17px;
+  opacity:0.8;
+}
